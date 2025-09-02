@@ -1,0 +1,32 @@
+# Compiled executables
+*.exe
+*.o
+*.obj
+
+# Output files
+output/*.exe
+output/*.pbm
+output/*.txt
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Build artifacts
+build/
+dist/
+
+# Keep output directory structure but ignore content
+output/*
+!output/.gitkeep
